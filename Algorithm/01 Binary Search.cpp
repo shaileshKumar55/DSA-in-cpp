@@ -8,6 +8,7 @@ struct Array
 	int length;
 };
 // it is a Divinde and conque approach 
+
 // Binary Search Using iteration 
 int BinarySearch(struct Array* arr, int l, int h, int key)
 {

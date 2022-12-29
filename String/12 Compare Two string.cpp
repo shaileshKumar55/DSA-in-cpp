@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string> 
 #include<stdio.h>
+
 using namespace std;
 
 void compare(char s[], char s1[])

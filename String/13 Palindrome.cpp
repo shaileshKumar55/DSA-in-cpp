@@ -4,6 +4,7 @@
 using namespace std;
 
 char palindrome(char Arr1[])
+	
 {
 	int i, j, k = 0;
 	for (i = 0; Arr1[i] != '\0'; i++) {}

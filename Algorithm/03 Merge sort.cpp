@@ -22,6 +22,7 @@ public:
         else
             nums[k++] = B[j++];
     }
+      
     
     while(i < n1)
         nums[k++] = A[i++];

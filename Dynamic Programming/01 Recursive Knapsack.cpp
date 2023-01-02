@@ -9,6 +9,7 @@ int Knapsack(int wt[], int val[], int W, int n) {
 		return 0;
 
 	// these are the choices we are having 
+	
 	if (wt[n - 1] <= W) {
 		return max(val[n - 1] + Knapsack(wt, val, W - wt[n - 1], n - 1),
 		           Knapsack(wt, val, W, n - 1));

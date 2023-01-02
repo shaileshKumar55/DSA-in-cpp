@@ -2,7 +2,7 @@
 using namespace std;
 
 int Knapsack(int wt[], int val[], int W, int n) {
-	// every recursive solution will have a base condition 
+	// every recursive  solution will have a base condition 
   // for base condition we need to think of the smallest valid input that we can pass 
   // array size can be atleast 0 || min weight can be 0 but not negetive; 
 	if (n == 0 || W == 0)

@@ -28,7 +28,7 @@ int Knapsack(int wt[], int val[], int W, int n) {
 }
 
 signed main() {
-	int n; cin >> n; // number of items
+	int n; cin >> n; // number of items 
 	int val[n], wt[n]; // values and wts array
 	for (int i = 0; i < n; i++)
 		cin >> wt[i];

@@ -9,6 +9,7 @@ void Insert(int A[], int n) // it is taking a heap array as well as index of ele
 	{
 		A[i] = A[i / 2];  // a of i copy the value of a of i by 2 
 		i = i / 2; // and i sud be moved to the parent 
+		
 	}
 	A[i] = temp; // finally we move to last place //temp reach at the right place //   then copy the element a of i as temp 
 }

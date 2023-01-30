@@ -1,5 +1,6 @@
 #include <stdio.h>
 void Insert(int A[], int n) // it is taking a heap array as well as index of element thst you want to insert 
+	
 {
 	int i = n, temp; // i sud point on index of element when it is inserted i.e i will start from n // take a temp variable 
 	temp = A[i]; // temp variable sud have value which we want to strore in heap  

@@ -2,6 +2,7 @@
 and stack used memory array cannot be change 
 tht is we can not incresae the size of array  */
 
+
 #include <stdio.h>
 #include<stdlib.h>
 int main ()

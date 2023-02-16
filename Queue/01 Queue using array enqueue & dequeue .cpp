@@ -11,6 +11,7 @@ struct Queue
 	int* Q; // dynamically creatng Array 
 };
 
+
 void Create(struct Queue* q, int size)
 {
 	q->size = size;

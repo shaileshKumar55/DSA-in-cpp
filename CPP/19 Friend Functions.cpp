@@ -4,6 +4,7 @@ using namespace std;
 // 1 + 4i
 // 5 + 8i
 // -------
+
 // 6 + 12i 
 class Complex {
 private:

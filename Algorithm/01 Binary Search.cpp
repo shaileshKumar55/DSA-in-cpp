@@ -6,6 +6,7 @@ struct Array
 	int* A;
 	int size;
 	int length;
+	
 };
 // it is a Divinde and conque approach 
 
